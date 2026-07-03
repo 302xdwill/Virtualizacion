@@ -1,0 +1,3 @@
+# Justificación Técnica de la Arquitectura Cloud
+
+El diseño implementado mitiga los fallos lógicos distribuyendo los balanceadores a lo largo de las subredes públicas perimetrales. Al mapear múltiples zonas de disponibilidad (`us-east-1a` y `us-east-1b`), la red de Comercial Nova es tolerante a caídas de data centers de AWS. Las subredes privadas quedan herméticas en el backend para hospedar los recursos críticos de datos.
